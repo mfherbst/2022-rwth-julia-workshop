@@ -14,13 +14,10 @@ What you need for the workshop (quick overview):
 ### Getting Julia
 For following the course you will need at least Julia 1.6, but for full compatibility **Julia 1.7** is recommended.
 Julia can be easily obtained in binary form from [Julia downloads](https://julialang.org/downloads/).
-[Installation instructions](https://julialang.org/downloads/platform.html) specific to your operating systems
-are available. In general it really just boils down to downloading a tarball and unpacking it.
 
 ### Getting all the rest
-The easiest way to get the remaining files and dependencies
-is to [download the install.jl script](https://raw.githubusercontent.com/mfherbst/2022-rwth-julia-workshop/master/install.jl)
-and run it from julia. To do so, just start up `julia` and in the resulting REPL shell,
+To get the remaining files and dependencies
+start up `julia` and in the resulting REPL shell,
 copy and paste the following:
 
 ```julia
@@ -28,6 +25,8 @@ import Downloads
 script = Downloads.download("https://raw.githubusercontent.com/mfherbst/2022-rwth-julia-workshop/master/install.jl")
 include(script)
 ```
+This [downloads the install.jl script](https://raw.githubusercontent.com/mfherbst/2022-rwth-julia-workshop/master/install.jl)
+and runs it from julia.
 
 As an alternative you can also also run the following commands manually
 (this requires to have `git` and `julia` available from the commandline):
