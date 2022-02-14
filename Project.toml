@@ -1,0 +1,5 @@
+[deps]
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
