@@ -6,7 +6,4 @@ flush(stdout)
 Pkg.instantiate()
 Pkg.precompile()
 
-using WebIO
-WebIO.install_jupyter_nbextension()
-
 println("Done!")

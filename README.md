@@ -19,13 +19,13 @@ are available. In general it really just boils down to downloading a tarball and
 
 ### Getting all the rest
 The easiest way to get the remaining files and dependencies
-is to [download the install.jl script](   TODO    )
+is to [download the install.jl script](https://raw.githubusercontent.com/mfherbst/2022-rwth-julia-workshop/master/install.jl)
 and run it from julia. To do so, just start up `julia` and in the resulting REPL shell,
 copy and paste the following:
 
 ```julia
 import Downloads
-script = Downloads.download("   TODO   ")
+script = Downloads.download("https://raw.githubusercontent.com/mfherbst/2022-rwth-julia-workshop/master/install.jl")
 include(script)
 ```
 
@@ -37,16 +37,18 @@ cd 2022-rwth-julia-workshop
 julia install-manual.jl
 ```
 
-If you are facing issues, check out the troubleshooting section of the
-[00_Installation](   TODO    ) notebook.
+### Troubleshooting
+If you are facing issues, check out
+the [great troubleshooting section](https://carstenbauer.github.io/WorkshopWizard.jl/dev/troubleshooting/)
+from the WorkshopWizard package by Carsten Bauer (which `install.jl` is using).
 
 ### Check everything works
-There is a section in the [00_Installation](   TODO    ) notebook
+There is a section in the [00_Installation](00_Installation.ipynb) notebook
 with a few quick commands to check everything works as expected.
 Please run these **before the course**.
 
 ## Working with these notes online (Beta)
-Click on the [![Binder](https://mybinder.org/badge_logo.svg)](    TODO    )
+Click on the [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mfherbst/2022-rwth-julia-workshop/master?labpath=00_Introduction.ipynb)
 badge to work with these notes online (without a local Julia installation).
 Note that for some of the exercises the computational performance available on
 binder might not be sufficient.
