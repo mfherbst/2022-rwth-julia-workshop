@@ -27,6 +27,8 @@ include(script)
 ```
 This [downloads the install.jl script](https://raw.githubusercontent.com/mfherbst/2022-rwth-julia-workshop/master/install.jl)
 and runs it from julia.
+Follow the instructions on the screen and start the Jupyter notebook server
+with the command that will be printed.
 
 As an alternative you can also also run the following commands manually
 (this requires to have `git` and `julia` available from the commandline):
