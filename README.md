@@ -12,7 +12,7 @@ What you need for the workshop (quick overview):
 - All required dependencies (Julia packages) for the workshop
 
 ### Getting Julia
-For following the course you will need at least Julia 1.6, but for full compatibility **Julia 1.7** is recommended.
+For following the course you will need at least **Julia 1.7**.
 Julia can be easily obtained in binary form from [Julia downloads](https://julialang.org/downloads/).
 
 ### Getting all the rest
