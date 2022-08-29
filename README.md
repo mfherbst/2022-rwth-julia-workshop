@@ -6,13 +6,13 @@ For more details [check out the course website](https://michael-herbst.com/teach
 ## Software and material
 What you need for the workshop (quick overview):
 
-- [Julia 1.7](https://julialang.org/downloads/)
+- [Julia 1.8](https://julialang.org/downloads/)
 - [Jupyter](https://jupyter.org/) and [IJulia.jl](https://github.com/JuliaLang/IJulia.jl)
 - This repository of workshop materials
 - All required dependencies (Julia packages) for the workshop
 
 ### Getting Julia
-For following the course you will need at least **Julia 1.7**.
+For following the course you will need at least **Julia 1.8**.
 Julia can be easily obtained in binary form from [Julia downloads](https://julialang.org/downloads/).
 
 ### Getting all the rest
